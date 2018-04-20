@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html  id="ng-app" ng-app="managmentApp" ng-cloak>
+<head>
+    <base href="/" />
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title ng-bind-html="title ">Managment</title>
+    <link rel="shortcut icon" href="assets/icons/favicon.ico?v=1" />
+
+    <!-- 3rd party Library style sheets -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="lib/normalize-css/css/normalize.css" rel="stylesheet" />
+    <link href="lib/bootstrap-select/css/bootstrap-select.css" rel="stylesheet" />
+    <link href="lib/angular-treasure-overlay-spinner/css/treasure-overlay-spinner.min.css" rel="stylesheet" />
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="print">
+
+    <!-- Managment style sheets -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <div>
+            <div ui-view></div>
+        </div>
+    </div>
+
+    <script src="lib/jquery/js/jquery.min.js"></script>
+    <script src="lib/angular/js/angular.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/angular-bootstrap/js/ui-bootstrap-tpls.min.js"></script>
+    <script src="lib/angular-resource/js/angular-resource.min.js"></script>
+    <script src="lib/angular-animate/js/angular-animate.min.js"></script>
+    <script src="lib/angular-ui-router/js/angular-ui-router.min.js"></script>
+    <script src="lib/ng-idle/js/angular-idle.min.js"></script>
+    <script src="lib/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="lib/bootstrap-select/js/i18n/defaults-en_US.min.js"></script>
+    <script src="lib/angular-bootstrap-select/js/angular-bootstrap-select.js"></script>
+    <script src="lib/angular-dynamic-locale/js/tmhDynamicLocale.min.js"></script>
+    <script src="lib/angular-treasure-overlay-spinner/js/treasure-overlay-spinner.min.js"></script>
+    <script src="lib/bootstrap-ui-datetime-picker/js/datetime-picker.min.js"></script>
+    <script src="lib/angular-translate/js/angular-translate.min.js"></script>
+    <script src="lib/angular-translate-loader-partial/js/angular-translate-loader-partial.min.js"></script>
+    <script src="lib/angular-sanitize/js/angular-sanitize.min.js"></script>
+    <!-- Dash scripts-->
+    <script src="app/managment.shared.route.js"></script>
+    <script src="app/managment.shared.constant.js"></script>
+    <script src="app/managment.shared.i18n.js"></script>
+    <script src="app/managment.shared.exception.js"></script>
+    <script src="app/managment.shared.common.js"></script>
+    <script src="app/managment.shared.input.js"></script>
+    <script src="app/managment.module.js"></script>
+
+    <!-- Modules -->
+    <script src="app/components/dashboard/dashboard.module.js"></script>
+    <!-- Config -->
+    <script src="app/components/dashboard/dashboard.config.js"></script>
+    <!-- Constants -->
+    <!-- Services -->
+    <!-- Resources -->
+    <!-- Controllers -->
+    <script src="app/components/dashboard/dashboard.controller.js"></script>
+</body>
+</html>
